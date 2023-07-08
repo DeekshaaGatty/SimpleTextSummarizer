@@ -1,0 +1,19 @@
+To execute the summarizer code, you will need the following requirements:
+
+1. Python: Make sure you have Python installed on your system. You can download the latest version of Python from the official website: https://www.python.org/downloads/
+
+2. NLTK Library: The code utilizes the Natural Language Toolkit (NLTK) library for text processing. To install NLTK, you can use the following command:
+
+   ```
+   pip install nltk
+   ```
+
+3. NLTK Data: NLTK requires additional data files to perform certain tasks such as tokenization and stop word removal. To download the required data, you can use the following code in a Python shell:
+
+   ```
+   import nltk
+   nltk.download('punkt')
+   nltk.download('stopwords')
+   ```
+
+4. Text File: You need a text file to summarize. Make sure you have a text file with the content you want to summarize. Provide the correct file name when prompted by the script.
